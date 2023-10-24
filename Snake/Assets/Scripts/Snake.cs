@@ -27,10 +27,14 @@ public class Snake : MonoBehaviour
     private void FixedUpdate()
     {
         //gets the current x and y position and add the new one
+        //also rounding if off makes the movement in grid like
         this.transform.position = new Vector3(
             Mathf.Round(this.transform.position.x) + _direction.x,
             Mathf.Round(this.transform.position.y) + _direction.y,
             0.0f);
+
+        //create a funtion for adjusting the speed
+        //can be done by adjusting the time in project settings
     }
 
 }
