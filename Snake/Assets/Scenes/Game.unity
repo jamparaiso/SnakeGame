@@ -449,7 +449,7 @@ GameObject:
   - component: {fileID: 1382811134}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 1553136216}
   m_Layer: 0
   m_Name: Walls 3 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -902,6 +902,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c8ad96999915fd4da34dce0f5b78f83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  segmentPrefab: {fileID: 4351922435911031042, guid: cdf3a48a322472b42974ae11d10aa56d, type: 3}
+  initialSize: 300
 --- !u!1 &1803734054
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,7 +917,7 @@ GameObject:
   - component: {fileID: 1803734056}
   m_Layer: 0
   m_Name: Walls 3
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1045,7 +1047,7 @@ GameObject:
   - component: {fileID: 2041950102}
   m_Layer: 0
   m_Name: Walls (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

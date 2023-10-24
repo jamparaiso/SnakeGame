@@ -23,7 +23,15 @@ public class Food : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Yumm");
-        RandomizePosition();
+
+        if (collision.tag == "Player" )
+        {
+            RandomizePosition();
+        }
+
+        if (collision.tag == "Obstacle")
+        {
+            RandomizePosition();
+        }
     }
 }
